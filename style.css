@@ -1,0 +1,62 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Rimouski';
+}
+body{
+    background-color: #293251;
+}
+
+/* ********* defaults *********** */
+.default{
+    font-size: 3rem;
+    color: #293251;
+}
+
+/* ********* class elements ******** */
+.notification{
+    font-size: 3rem;
+    color: rgb(141, 15, 15);
+    background-color: rgb(255, 131, 131);
+    text-align: center;
+    padding: 2rem 0rem;
+    display: none;
+}
+.container{
+    max-width: 45rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    background-color: beige;
+}
+.app-title{
+    font-size: 1.8rem;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(229, 243, 243);
+}
+.weather-icon{
+    margin: -1rem 0rem;
+}
+.temperature-value p{
+    font-size: 8rem;
+}
+.temperature-value span{
+    font-size: 4rem;
+}
+.location{
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+}
+.app-footer{
+    height: 8rem;
+}
