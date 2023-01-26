@@ -4,3 +4,4 @@ A simple weather application creater using HTML, CSS and JavaScript. It asks for
 
 - Clicking on the temperature swaps notation from celsius to fahrenheit and vice versa.
 
+Website: https://darthdaenerys.github.io/Weather-App/
